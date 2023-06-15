@@ -1,4 +1,4 @@
-const auto = document.querySelector("#seal")
+const auto = document.querySelector("#monkfu")
 
 function hotspotClickOne(hotspot) {
     
@@ -6,13 +6,13 @@ function hotspotClickOne(hotspot) {
     
     let hotSlot = hotspot.slot
     
-    const modelV = document.querySelector("#seal")
+    const modelV = document.querySelector("#monkfu")
 
     if (hotSlot === "hotspot-1"){
-      modelV.play()
+      modelV.animationName = "54_14_baked"
     }
 
     if (hotSlot === "hotspot-2"){
-      modelV.pause()
+      modelV.animationName = "90_19_baked"
     } 
   }
