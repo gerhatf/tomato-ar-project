@@ -14,7 +14,7 @@
         id="monkfu"
         alt="MonkFu"
         src="./src/Monk-Fu_anims.glb"
-        ios-src="./src/MonkFu-final-v2.reality"
+        ios-src="./src/MonkFu-final-wo-backflip.reality"
         animation-name="54_14_baked"
         autoplay
         ar
@@ -23,6 +23,9 @@
         camera-controls
         touch-action="pan-y"
         >
+        <div class="progress-bar" slot="progress-bar">
+            <div class="update-bar"></div>
+        </div>
 
         <div class="btns">
             <button onclick="hotspotClickOne(this)"
